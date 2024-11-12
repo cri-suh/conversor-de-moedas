@@ -5,7 +5,7 @@
 <br>
 <H2>Tecnologias utilizadas:</H2>
 <br>
-<p>HTML</p>
-<p>CSS</p>
-<p>JAVASCRIPT</p>
+<p>*HTML</p>
+<p>*CSS</p>
+<p>*JAVASCRIPT</p>
 <p><b>Observação:</b>tentei por varias vezes refazer a lógica do conversor até conseguir chegar a essa versão teste6.js</p>
