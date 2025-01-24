@@ -15,30 +15,7 @@ async function converter() {
     let euroToday = data.EUR.high
     let libraToday = data.GBP.high
     let bitcoinToday = data.BTC.high
-    let realToday = data.BRL.high
 
-    if(currentCurrency.value == 'usa') {
-        euroToday = 0.93
-        libraToday = 0.77
-        bitcoinToday = 0.000013
-        realToday = 5.2
-        
-    }
-
-    if(currentCurrency.value == 'euro') {
-        dolarTody = 1.08
-        libraToday = 0.83
-        bitcoinToday = 0.000014
-        realToday = 6.2
-    }
-
-    if(currentCurrency.value == 'bitcoin') {
-        dolarTody = 76.04171
-        libraToday = 58.54876
-        euroToday = 70.41136
-        realToday = 434.19537
-    }
-    
     if(currencySelect.value == 'dolar' ) {
         currencyValueConverted.innerHTML = new Intl.NumberFormat('en-US', {
             style: 'currency', 
